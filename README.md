@@ -4,10 +4,10 @@ An intelligent real-time hospital dashboard system that optimizes post-operative
 
 ## Screenshots
 
-![Hospital Dashboard Overview](dashboard-overview.png)
+![Hospital Dashboard Overview](patient-details.png)
 *Main dashboard showing patient queue with AI-prioritized visit order based on medical urgency*
 
-![Patient Details and Notes](patient-details.png)
+![Patient Details and Notes](dashboard-overview.png)
 *Patient bed details with equipment tracking, voice-to-text notes, and real-time updates*
 
 ## Features
