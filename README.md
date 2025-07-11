@@ -2,6 +2,14 @@
 
 A real-time hospital dashboard system built with Palantir Foundry ontology integration for post-operative patient coordination.
 
+## Screenshots
+
+![Hospital Dashboard Overview](Screenshot%202025-07-06%20at%201.38.49%20PM.png)
+*Main dashboard showing patient queue with AI-prioritized visit order*
+
+![Patient Details and Notes](Screenshot%202025-07-06%20at%201.39.01%20PM.png)
+*Patient bed details with equipment tracking and note updates*
+
 ## Features
 
 - Real-time patient queue management using AIP priority algorithms
