@@ -1,28 +1,31 @@
 # Hospital Post-Op Coordination Dashboard
 
-A real-time hospital dashboard system built with Palantir Foundry ontology integration for post-operative patient coordination.
+An intelligent real-time hospital dashboard system that optimizes post-operative patient care through AI-driven queue prioritization, automated equipment tracking, and seamless nurse-doctor coordination. Built with Palantir Foundry ontology integration and OpenAI-powered smart workflows.
 
 ## Screenshots
 
-![Hospital Dashboard Overview](Screenshot%202025-07-06%20at%201.38.49%20PM.png)
-*Main dashboard showing patient queue with AI-prioritized visit order*
+![Hospital Dashboard Overview](dashboard-overview.png)
+*Main dashboard showing patient queue with AI-prioritized visit order based on medical urgency*
 
-![Patient Details and Notes](Screenshot%202025-07-06%20at%201.39.01%20PM.png)
-*Patient bed details with equipment tracking and note updates*
+![Patient Details and Notes](patient-details.png)
+*Patient bed details with equipment tracking, voice-to-text notes, and real-time updates*
 
 ## Features
 
-- Real-time patient queue management using AIP priority algorithms
-- Equipment tracking and extraction from patient notes
-- Patient and nurse note updates
-- Ontology-based data persistence
+- **🧠 AI-Powered Queue Prioritization**: OpenAI-driven patient visit ordering based on pain levels, medical urgency, and time factors
+- **🎤 Voice-to-Text Integration**: Web Speech API with manual start/stop controls for hands-free note taking
+- **📋 Intelligent Note Merging**: AI-powered note updates that preserve medical history and context
+- **🔧 Automated Equipment Tracking**: Real-time extraction and monitoring of medical equipment from patient notes
+- **⚡ Real-Time Updates**: Live dashboard updates with automatic queue recalculation after every note change
+- **🏥 Palantir Foundry Integration**: Enterprise-grade ontology-based data persistence and management
 
 ## Tech Stack
 
 - **Backend**: Python Flask with Palantir Foundry SDK
-- **Frontend**: React with Tailwind CSS
+- **Frontend**: React with Tailwind CSS  
 - **Data**: Palantir Foundry Ontology
-- **AI**: AIP smart priority queue function
+- **AI**: OpenAI GPT-4 + Palantir AIP smart priority queue function
+- **Voice**: Web Speech API for voice-to-text transcription
 
 ## Setup
 
